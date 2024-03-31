@@ -2,7 +2,7 @@
 - 👀 I’m interested in Web Development
 - 🌱 I’m currently learning DSA
 - 📫 How to reach me - Email: ak5030844@gmail.com & Insta: @great_himanshu_27
-- 😄 Pronouns: He/Great
+- 😄 Pronouns: He/Him/Great
 - ⚡ Fun fact: I like to watch Anime 😌
 
 <!---
