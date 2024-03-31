@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning DSA
 - 📫 How to reach me - Email: ak5030844@gmail.com & Insta: @great_himanshu_27
 - 😄 Pronouns: He/Great
-- ⚡ Fun fact: I'm a weeb 😌
+- ⚡ Fun fact: I like to watch Anime 😌
 
 <!---
 Great-Himanshu/Great-Himanshu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
