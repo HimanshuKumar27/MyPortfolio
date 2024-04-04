@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Great-Himanshu
+- 👋 Hi, I’m Himanshu Kumar
 - 👀 I’m interested in Web Development
 - 🌱 I’m currently learning DSA
 - 📫 How to reach me - Email: ak5030844@gmail.com & Insta: @great_himanshu_27
-- 😄 Pronouns: He/Him/Great
+- 😄 Pronouns: He/Him
 - ⚡ Fun fact: I like to watch Anime 😌
 
 <!---
