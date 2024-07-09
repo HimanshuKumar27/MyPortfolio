@@ -2,7 +2,6 @@
 - 👀 I’m interested in Web Development
 - 🌱 I’m currently learning DSA
 - 📫 How to reach me - Email: 365himanshukumar@gmail.com & Insta: @great_himanshu_27
-- 😄 Pronouns: He/Him
 - ⚡ Fun fact: I like to watch Anime 😌
 
 <!---
