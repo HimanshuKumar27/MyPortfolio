@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Himanshu Kumar
 - 👀 I’m interested in Web Development
-- 🌱 I’m currently learning DSA
+- 🌱 I’m currently trying to learn DSA
 - 📫 How to reach me - Email: 365himanshukumar@gmail.com & Insta: @great_himanshu_27
 - ⚡ Fun fact: I like to watch Anime 😌
 
