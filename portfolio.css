@@ -23,9 +23,9 @@ body {
   height: 0;
 }
 
-/* Buttons */
+/* Navigation Styling */
 
-.zoom-out {
+.nav-bar {
   display: inline-block;
   padding: 15px 30px;
   font-size: 18px;
@@ -33,7 +33,7 @@ body {
   transition: transform 0.3s ease;
 }
 
-.zoom-out:hover {
+.nav-bar:hover {
   transform: scale(0.9);
 }
 
@@ -42,6 +42,7 @@ body {
 header {
   background: rgb(109, 83, 254);
   color: whitesmoke;
+  height: 13rem;
   padding: 1rem 0;
   text-align: center;
 }
