@@ -42,8 +42,8 @@ body {
 header {
   background: rgb(109, 83, 254);
   color: whitesmoke;
-  height: 13rem;
-  padding: 1rem 0;
+  height: 10%;
+  padding: 1;
   text-align: center;
 }
 
@@ -78,9 +78,9 @@ nav ul li a:hover {
   color: #aab2bd;
 }
 
-/* Hero Section */
+/* Intro Section */
 
-.hero {
+.intro {
   height: 50vh;
   background-color: white;
   display: flex;
@@ -92,7 +92,7 @@ nav ul li a:hover {
   padding: 0 1rem;
 }
 
-.hero h1 {
+.intro h1 {
   font-size: 3rem;
   margin: 0;
   text-transform: uppercase;
@@ -100,7 +100,7 @@ nav ul li a:hover {
   animation: fadeInDown 1s ease-out;
 }
 
-.hero p {
+.intro p {
   font-size: 1.5rem;
   margin: 1rem 0;
   animation: fadeInUp 1s ease-out;
@@ -130,6 +130,12 @@ nav ul li a:hover {
   }
 }
 
+/* Img */
+#img {
+  width: 100%;
+  height: 40%;
+}
+
 /* Sections */
 
 section {
@@ -148,13 +154,6 @@ h2 {
 ul {
   list-style: none;
   padding: 0;
-}
-
-.project {
-  margin: 1rem 0;
-  padding: 1rem;
-  background: #2d3748;
-  border-radius: 5px;
 }
 
 /* Footer */
@@ -196,26 +195,4 @@ a {
 
 a:hover {
   color: #aab2bd;
-}
-
-/* Media Queries */
-
-@media (max-width: 600px) {
-  nav ul {
-      display: block;
-      text-align: center;
-  }
-
-  nav ul li {
-      display: block;
-      margin: 0.5rem 0;
-  }
-
-  .hero h1 {
-      font-size: 2rem;
-  }
-
-  .hero p {
-      font-size: 1.2rem;
-  }
 }
