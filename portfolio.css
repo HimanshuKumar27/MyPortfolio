@@ -80,30 +80,28 @@ nav ul li a:hover {
 
 /* Intro Section */
 
+/* portfolio.css */
+
+/* Set a background image for the introduction section */
 .intro {
-  height: 50vh;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: rgb(109, 83, 254);
-  text-align: center;
-  padding: 0 1rem;
+  background-image: url('Hero.jpg'); /* Update this path */
+  background-size: cover; /* Makes sure the image covers the whole section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  padding: 20px; /* Adds some padding around the content */
+  color: #fff; /* Optional: Changes text color to white for better contrast */
 }
 
+/* Add any other styles you want for the intro section */
 .intro h1 {
-  font-size: 3rem;
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  animation: fadeInDown 1s ease-out;
+  font-size: 2.5em; /* Adjust font size as needed */
+  margin-bottom: 0.5em; /* Adjust spacing as needed */
+  text-align: center;
 }
 
 .intro p {
-  font-size: 1.5rem;
-  margin: 1rem 0;
-  animation: fadeInUp 1s ease-out;
+  font-size: 1.2em; /* Adjust font size as needed */
+  text-align: center;
 }
 
 /* Keyframes for Animations */
