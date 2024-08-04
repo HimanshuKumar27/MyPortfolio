@@ -126,14 +126,13 @@ nav ul li a:hover {
   }
 }
 
-/* Img */
-#img {
-  background-image: url('Hero.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  padding: 200px;
-  margin: auto;
+/* Cover-Image */
+.cover-image {
+  width: 100%;
+  height: 10%;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Sections */
