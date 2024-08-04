@@ -84,12 +84,12 @@ nav ul li a:hover {
 
 /* Set a background image for the introduction section */
 .intro {
-  background-image: url('Hero.jpg'); /* Update this path */
-  background-size: cover; /* Makes sure the image covers the whole section */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  padding: 20px; /* Adds some padding around the content */
-  color: #fff; /* Optional: Changes text color to white for better contrast */
+  background-image: url('Hero.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 20px; 
+  color: #fff;
 }
 
 /* Add any other styles you want for the intro section */
