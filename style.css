@@ -289,3 +289,78 @@ footer {
         left: 0%;
     }
 }
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .container {
+      padding: 0 15px;
+    }
+  
+    /* Navigation */
+    .menu-toggle {
+      display: block;
+      cursor: pointer;
+      padding: 10px;
+      color: #fff;
+    }
+  
+    nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #622ef3;
+    }
+  
+    nav ul.active {
+      display: flex;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    /* Intro section */
+    .intro {
+      height: auto;
+      padding: 50px 0;
+    }
+  
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .intro h1 {
+      font-size: 2rem;
+    }
+  
+    /* Skills section */
+    .skill-list li {
+      width: calc(50% - 10px);
+    }
+  
+    /* Projects section */
+    .project-links .btn {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Ensure desktop styles are applied for larger screens */
+  @media (min-width: 768px) {
+    .menu-toggle {
+      display: none;
+    }
+  
+    nav ul {
+      display: flex !important;
+      flex-direction: row;
+    }
+  }
