@@ -139,10 +139,6 @@ section h2 {
     color: #622ef3;
 }
 
-.skill-list li:hover {
-    border: 3px solid black;
-}
-
 /* Projects Section */
 .project {
     background: #fff;
