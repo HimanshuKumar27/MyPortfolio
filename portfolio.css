@@ -122,14 +122,25 @@ section h2 {
 .skill-list li {
     background: #fff;
     border-radius: 5px;
+    border: 3px solid #622ef3;
     padding: 10px 20px;
     margin: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 175px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill-list li i {
     margin-right: 10px;
     color: #622ef3;
+}
+
+.skill-list li:hover {
+    border: 3px solid black;
 }
 
 /* Projects Section */
