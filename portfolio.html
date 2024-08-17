@@ -1,96 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Himanshu Kumar - Web Developer Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
-    <script src="portfolio.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
 <body>
-
-    <div class="intro">
-        <h1>Welcome to My Portfolio - HIMANSHU KUMAR</h1>
-        <p>I am a beginner web developer with a passion for creating beautiful and functional web applications. <br> I
-            am currently studying computer science and learning various web technologies.</p>
-        <br>
-        <p>I'm developing my coding skills to turn tech ideas into reality. <br> Looking to connect with other
-            programmers and industry professionals.</p>
-    </div>
-
     <header>
         <nav>
             <ul>
-                <li><a class="nav-bar" href="#skills">Skills</a></li>
-                <li><a class="nav-bar" href="#projects">Projects</a></li>
-                <li><a class="nav-bar" href="#education">Education</a></li>
-                <li><a class="nav-bar" href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <img src="Cover_image.jpg" class="cover-image" alt="Cover Image">
+    <main>
+        <section id="home" class="intro">
+            <div class="container">
+                <img src="Profile Pic.jpg" alt="Himanshu Kumar" class="profile-picture">
+                <h1>Himanshu Kumar</h1>
+                <p class="tagline">Aspiring Web Developer | Creative Problem Solver</p>
+                <a href="resume.pdf" class="btn" download>Download Resume</a>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>C</li>
-            <li>Git and Github</li>
-        </p>
-    </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a passionate beginner web developer with a strong foundation in computer science. Currently pursuing my education, I am dedicated to creating beautiful and functional web applications. I'm constantly developing my coding skills to turn innovative tech ideas into reality.</p>
+                <p>I'm eager to connect with other programmers and industry professionals to learn and grow in the field of web development.</p>
+            </div>
+        </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
-            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fas fa-code"></i> C</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                        <li><i class="fab fa-github"></i> GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <img src="project1-screenshot.jpg" alt="Project 1" class="project-image">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1. This project demonstrates my skills in HTML, CSS, and JavaScript to create a responsive web application.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/project1" target="_blank" class="btn">View on GitHub</a>
+                        <a href="https://project1-demo.com" target="_blank" class="btn">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="project2-screenshot.jpg" alt="Project 2" class="project-image">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2. This project showcases my ability to work with APIs and create dynamic content using JavaScript and Python.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/project2" target="_blank" class="btn">View on GitHub</a>
+                        <a href="https://project2-demo.com" target="_blank" class="btn">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <ul class="timeline">
+                    <li>
+                        <h3>Diploma in Computer Science and Engineering</h3>
+                        <p>Noida International University - Greater Noida</p>
+                        <p class="date">2022 - Present</p>
+                    </li>
+                    <li>
+                        <h3>'O' Level</h3>
+                        <p>National Institute of Electronics and Information Technology - Allahabad</p>
+                        <p class="date">2021</p>
+                    </li>
+                    <li>
+                        <h3>Bachelors in Art</h3>
+                        <p>Mahatama Gandhi Kashi Vidyapeeth - Varanasi</p>
+                        <p class="date">2018 - 2021</p>
+                    </li>
+                    <li>
+                        <h3>Intermediate</h3>
+                        <p>Happy Model Jr. Highschool - Ghaziabad</p>
+                        <p class="date">2016 - 2018</p>
+                    </li>
+                    <li>
+                        <h3>Highschool</h3>
+                        <p>New Sainik Public School - Ghaziabad</p>
+                        <p class="date">2014 - 2016</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://github.com/HimanshuKumar27" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/himanshu-kumar-7011121740z" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:365himanshukumar@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/great_himanshu_27" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>Made with ❤️ &copy; 2024 Himanshu Kumar. All Rights Reserved.</p>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
-        </div>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <p>
-            <li>Highschool | New Sainik Public School - Ghaziabad</li>
-            <li>Intermediate | Happy Model Jr. Highschool - Ghaziabad</li>
-            <li>Bachelors in Art | Mahatama Gandhi Kashi Vidyapeeth - Varanasi</li>
-            <li>'O' Level | National Institute of Electronics and Information Technology - Allahabad</li>
-            <li>Diploma in Computer Science and Engineering | Noida International University - Greater Noida</li>
-        </p>
-    </section>
-
-    <footer id="contact">
-        <div class="social-icons">
-            <a href="https://github.com/HimanshuKumar27/Himanshu_Kumar_27" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/himanshu-kumar-7011121740z" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="mailto:365himanshukumar@gmail.com">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://www.instagram.com/great_himanshu_27/?igsh=cTczN2Jncn" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </div>
-        <p>Made with ❤️ &copy; 2024 Himanshu Kumar. All Rights Reserved.</p>
     </footer>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
