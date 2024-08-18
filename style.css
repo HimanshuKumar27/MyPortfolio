@@ -246,6 +246,10 @@ section h2 {
     height: 150px;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 /* Footer */
 footer {
     background-color: #333;
