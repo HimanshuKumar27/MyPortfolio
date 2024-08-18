@@ -172,6 +172,7 @@ section h2 {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
+    list-style-type: none;
 }
 
 .timeline::after {
@@ -223,7 +224,7 @@ section h2 {
 
 .timeline li .date {
     font-style: italic;
-    color: #888;
+    color: black;
 }
 
 /* Contact Section */
@@ -238,7 +239,7 @@ section h2 {
 #contact-form textarea {
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #622ef3;
     border-radius: 5px;
 }
 
