@@ -227,30 +227,6 @@ section h2 {
     color: black;
 }
 
-/* Contact Section */
-#contact-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-#contact-form input,
-#contact-form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #663399;
-    border-radius: 5px;
-}
-
-#contact-form textarea {
-    height: 150px;
-}
-
-.btn:hover {
-    cursor: pointer;
-}
-
 /* Footer */
 footer {
     background-color: #333;
