@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #622ef3;
+    background-color: #663399;
     color: #fff;
     padding: 1rem 0;
     position: fixed;
@@ -79,7 +79,7 @@ nav ul li a:hover {
 
 .btn {
     display: inline-block;
-    background: #622ef3;
+    background: #663399;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -122,7 +122,7 @@ section h2 {
 .skill-list li {
     background: #fff;
     border-radius: 5px;
-    border: 3px solid #622ef3;
+    border: 3px solid #663399;
     padding: 10px 20px;
     margin: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -136,7 +136,7 @@ section h2 {
 
 .skill-list li i {
     margin-right: 10px;
-    color: #622ef3;
+    color: #663399;
 }
 
 /* Projects Section */
@@ -179,7 +179,7 @@ section h2 {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #622ef3;
+    background-color: #663399;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -200,7 +200,7 @@ section h2 {
     height: 25px;
     right: -17px;
     background-color: #fff;
-    border: 4px solid #622ef3;
+    border: 4px solid #663399;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -239,7 +239,7 @@ section h2 {
 #contact-form textarea {
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #622ef3;
+    border: 1px solid #663399;
     border-radius: 5px;
 }
 
@@ -271,7 +271,7 @@ footer {
 }
 
 .social-icons a:hover {
-    color: #622ef3;
+    color: #663399;
 }
 
 /* Responsive Design */
@@ -320,7 +320,7 @@ footer {
       position: absolute;
       top: 100%;
       left: 0;
-      background-color: #622ef3;
+      background-color: #663399;
     }
   
     nav ul.active {
